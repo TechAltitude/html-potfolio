@@ -1,0 +1,110 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: monospace;
+
+}
+h3{
+    color: gray;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+.m1-header{
+    box-shadow: 0px 3px 10px lightgrey;
+    /* height: 60px; */
+    
+    margin-top: -1.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top:1%
+}
+.menu-toggle{
+    float: right;
+    margin: 85%;
+}
+.m1-header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.m1-header ul li{
+    display: inline-block;
+}
+
+.section-banner{
+    background-image: url('./bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 10%;
+    /* line-height: 1; */
+}
+
+.section-banner h3{
+    font-size: 40px;
+    margin: 0;
+    color: white;
+    font-weight: 50;
+}
+.section-banner h1{
+    font-size: 90px;
+    margin-top: 0;
+    margin-bottom: 2%;
+    color: white;
+    font-weight: bolder;
+}
+.section-banner .horizontal-rule{
+    width: 40%;
+    background-color: white;
+    height: 2px;
+    display: block;
+
+}
+.section-banner ul {
+    list-style: none;
+    width: 40%;
+    padding-top: 5%;
+}
+.section-banner ul li{
+    display: inline;
+    /* margin-left: 5px; */
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    padding: 12px;
+    float: left;
+    color: white;
+    font-weight: bold;
+}
+
+.section-banner ul li:hover{
+    transform: scale(150%);
+    cursor: pointer;
+}
+
+.section-services{
+    text-align: center;
+    height: 60vh;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+}
+.book-now{
+    border: navajowhite;
+    color: white;
+    background: #ff4747;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.section-services h4{
+    color: gray;
+}
